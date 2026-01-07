@@ -8,7 +8,13 @@ import SegmentPerformance from './pages/SegmentPerformance';
 import EngagementChurn from './pages/EngagementChurn';
 import ActionableInsights from './pages/ActionableInsights';
 
-const pages = [
+interface Page {
+  id: string;
+  name: string;
+  component: React.ComponentType;
+}
+
+const pages: Page[] = [
   { id: 'overview', name: 'Executive Overview', component: ExecutiveOverview },
   { id: 'funnel', name: 'Retention Funnel', component: RetentionFunnel },
   { id: 'cohort', name: 'Cohort Analysis', component: CohortAnalysis },
@@ -18,8 +24,8 @@ const pages = [
 ];
 
 function App() {
-  const [activePage, setActivePage] = useState('overview');
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [activePage, setActivePage] = useState<string>('overview');
+  const [sidebarCollapsed, setSidebarCollapsed] = useState<boolean>(false);
 
   const ActiveComponent = pages.find(p => p.id === activePage)?.component || ExecutiveOverview;
 
@@ -51,5 +57,4 @@ function App() {
 }
 
 export default App;
-
 
