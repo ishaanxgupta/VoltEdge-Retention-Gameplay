@@ -1,0 +1,45 @@
+{
+    "stages": [
+      {
+        "id": "registration",
+        "name": "Customer Registered",
+        "count": 420000,
+        "percentage": 100,
+        "dropoff": 0
+      },
+      {
+        "id": "first_purchase",
+        "name": "First Purchase",
+        "count": 420000,
+        "percentage": 100,
+        "dropoff": 0
+      },
+      {
+        "id": "app_adoption",
+        "name": "App Adoption",
+        "count": 45932,
+        "percentage": 10.9,
+        "dropoff": 89.1
+      },
+      {
+        "id": "repeat_purchase",
+        "name": "Repeat Purchase",
+        "count": 112702,
+        "percentage": 26.8,
+        "dropoff": 73.2
+      },
+      {
+        "id": "ecosystem_user",
+        "name": "Ecosystem Builder",
+        "count": 1813,
+        "percentage": 0.43,
+        "dropoff": 26.4
+      }
+    ],
+    "criticalDropoff": {
+      "stage": "First Purchase → App Adoption",
+      "percentage": 89.1,
+      "insight": "Nearly 9 out of 10 customers complete a purchase without adopting the VoltEdge app, making post-purchase activation the single largest retention and expansion opportunity."
+    }
+  }
+  

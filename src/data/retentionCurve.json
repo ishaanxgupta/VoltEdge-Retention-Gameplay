@@ -1,0 +1,17 @@
+[
+  { "week": 0, "retention": 100, "users": 18247 },
+  { "week": 1, "retention": 72, "users": 13138 },
+  { "week": 2, "retention": 58, "users": 10583 },
+  { "week": 3, "retention": 47, "users": 8576 },
+  { "week": 4, "retention": 38, "users": 6934 },
+  { "week": 5, "retention": 33, "users": 6021 },
+  { "week": 6, "retention": 29, "users": 5292 },
+  { "week": 7, "retention": 27, "users": 4927 },
+  { "week": 8, "retention": 25, "users": 4562 },
+  { "week": 9, "retention": 24, "users": 4379 },
+  { "week": 10, "retention": 24, "users": 4379 },
+  { "week": 11, "retention": 23, "users": 4197 },
+  { "week": 12, "retention": 23, "users": 4197 }
+]
+
+

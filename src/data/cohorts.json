@@ -1,0 +1,32 @@
+{
+  "heatmapData": [
+    { "cohort": "Jan 2025", "week1": 100, "week2": 71, "week3": 56, "week4": 45, "week5": 38, "week6": 32, "week7": 28, "week8": 25, "week9": 24, "week10": 23, "week11": 22, "week12": 22 },
+    { "cohort": "Feb 2025", "week1": 100, "week2": 69, "week3": 54, "week4": 43, "week5": 36, "week6": 30, "week7": 27, "week8": 24, "week9": 23, "week10": 22, "week11": 21, "week12": 21 },
+    { "cohort": "Mar 2025", "week1": 100, "week2": 73, "week3": 59, "week4": 48, "week5": 41, "week6": 35, "week7": 31, "week8": 28, "week9": 26, "week10": 25, "week11": 24, "week12": 24 },
+    { "cohort": "Apr 2025", "week1": 100, "week2": 75, "week3": 62, "week4": 51, "week5": 44, "week6": 38, "week7": 34, "week8": 30, "week9": 28, "week10": 27, "week11": 26, "week12": 25 },
+    { "cohort": "May 2025", "week1": 100, "week2": 74, "week3": 60, "week4": 49, "week5": 42, "week6": 36, "week7": 32, "week8": 29, "week9": 27, "week10": 26, "week11": 25, "week12": null },
+    { "cohort": "Jun 2025", "week1": 100, "week2": 72, "week3": 57, "week4": 46, "week5": 39, "week6": 33, "week7": 29, "week8": 26, "week9": 24, "week10": 23, "week11": null, "week12": null },
+    { "cohort": "Jul 2025", "week1": 100, "week2": 70, "week3": 55, "week4": 44, "week5": 37, "week6": 31, "week7": 27, "week8": 24, "week9": 23, "week10": null, "week11": null, "week12": null },
+    { "cohort": "Aug 2025", "week1": 100, "week2": 68, "week3": 52, "week4": 41, "week5": 34, "week6": 28, "week7": 25, "week8": 22, "week9": null, "week10": null, "week11": null, "week12": null },
+    { "cohort": "Sep 2025", "week1": 100, "week2": 76, "week3": 63, "week4": 52, "week5": 45, "week6": 39, "week7": 35, "week8": null, "week9": null, "week10": null, "week11": null, "week12": null },
+    { "cohort": "Oct 2025", "week1": 100, "week2": 78, "week3": 65, "week4": 54, "week5": 47, "week6": 41, "week7": null, "week8": null, "week9": null, "week10": null, "week11": null, "week12": null },
+    { "cohort": "Nov 2025", "week1": 100, "week2": 77, "week3": 64, "week4": 53, "week5": 46, "week6": null, "week7": null, "week8": null, "week9": null, "week10": null, "week11": null, "week12": null },
+    { "cohort": "Dec 2025", "week1": 100, "week2": 75, "week3": 61, "week4": 50, "week5": null, "week6": null, "week7": null, "week8": null, "week9": null, "week10": null, "week11": null, "week12": null }
+  ],
+  "cohortComparison": [
+    { "week": 1, "Q1_2025": 100, "Q2_2025": 100, "Q3_2025": 100, "Q4_2025": 100 },
+    { "week": 2, "Q1_2025": 71, "Q2_2025": 74, "Q3_2025": 71, "Q4_2025": 77 },
+    { "week": 3, "Q1_2025": 56, "Q2_2025": 60, "Q3_2025": 57, "Q4_2025": 63 },
+    { "week": 4, "Q1_2025": 45, "Q2_2025": 49, "Q3_2025": 46, "Q4_2025": 52 },
+    { "week": 5, "Q1_2025": 38, "Q2_2025": 42, "Q3_2025": 39, "Q4_2025": 47 },
+    { "week": 6, "Q1_2025": 32, "Q2_2025": 36, "Q3_2025": 33, "Q4_2025": 41 },
+    { "week": 7, "Q1_2025": 28, "Q2_2025": 32, "Q3_2025": 29, "Q4_2025": 35 },
+    { "week": 8, "Q1_2025": 25, "Q2_2025": 29, "Q3_2025": 25, "Q4_2025": 30 },
+    { "week": 9, "Q1_2025": 24, "Q2_2025": 27, "Q3_2025": 24, "Q4_2025": 28 },
+    { "week": 10, "Q1_2025": 23, "Q2_2025": 26, "Q3_2025": 23, "Q4_2025": 27 },
+    { "week": 11, "Q1_2025": 22, "Q2_2025": 25, "Q3_2025": 22, "Q4_2025": 26 },
+    { "week": 12, "Q1_2025": 22, "Q2_2025": 24, "Q3_2025": 21, "Q4_2025": 25 }
+  ]
+}
+
+

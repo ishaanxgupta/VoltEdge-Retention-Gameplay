@@ -1,0 +1,62 @@
+{
+  "segments": [
+    {
+      "id": "power",
+      "name": "Power Users",
+      "description": "≥4 orders, ≥5 sessions/week",
+      "count": 2555,
+      "percentage": 14.0,
+      "retention90Day": 78.5,
+      "revenueContribution": 62.3,
+      "avgOrderValue": 189.50,
+      "avgSessionsPerWeek": 6.8,
+      "churnRate": 2.1,
+      "color": "#22c55e"
+    },
+    {
+      "id": "regular",
+      "name": "Regular Users",
+      "description": "2-3 orders, 2-4 sessions/week",
+      "count": 4379,
+      "percentage": 24.0,
+      "retention90Day": 45.2,
+      "revenueContribution": 24.8,
+      "avgOrderValue": 142.30,
+      "avgSessionsPerWeek": 3.2,
+      "churnRate": 5.4,
+      "color": "#3b82f6"
+    },
+    {
+      "id": "transactional",
+      "name": "Transactional Users",
+      "description": "1-2 orders, <2 sessions/week",
+      "count": 5474,
+      "percentage": 30.0,
+      "retention90Day": 18.7,
+      "revenueContribution": 10.2,
+      "avgOrderValue": 98.40,
+      "avgSessionsPerWeek": 0.8,
+      "churnRate": 12.3,
+      "color": "#f59e0b"
+    },
+    {
+      "id": "dormant",
+      "name": "Dormant Users",
+      "description": "0 orders in 60+ days",
+      "count": 5839,
+      "percentage": 32.0,
+      "retention90Day": 4.2,
+      "revenueContribution": 2.7,
+      "avgOrderValue": 67.20,
+      "avgSessionsPerWeek": 0.1,
+      "churnRate": 34.8,
+      "color": "#ef4444"
+    }
+  ],
+  "callout": {
+    "title": "Small User Base, Outsized Impact",
+    "text": "Power Users represent only 14% of the customer base but drive 62% of total revenue. Converting just 5% of Regular Users to Power status would increase revenue by an estimated 18%."
+  }
+}
+
+

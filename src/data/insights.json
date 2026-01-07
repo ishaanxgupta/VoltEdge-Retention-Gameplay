@@ -1,0 +1,126 @@
+{
+    "topInsights": [
+      {
+        "id": 1,
+        "title": "App Adoption is the Strongest Retention Lever",
+        "description": "Customers who adopt the VoltEdge app churn at 12.3% versus 28.7% for non-app users. App adoption also correlates with higher lifetime value and faster repeat purchases.",
+        "metric": "12.3%",
+        "metricLabel": "Churn (App Users)",
+        "impact": "Critical",
+        "category": "activation"
+      },
+      {
+        "id": 2,
+        "title": "First Repeat Purchase Happens Quickly — If It Happens",
+        "description": "Among customers who make a second purchase, the median time to repeat purchase is just 2.5 months. However, over 73% of customers never reach this second transaction.",
+        "metric": "2.5 months",
+        "metricLabel": "Median Time to 2nd Purchase",
+        "impact": "High",
+        "category": "retention"
+      },
+      {
+        "id": 3,
+        "title": "Multi-Category Buyers Drive Ecosystem Value",
+        "description": "Only 15% of non-app users purchase across multiple categories, compared to 31% of app users. Multi-category buyers show materially lower churn and higher lifetime value.",
+        "metric": "31%",
+        "metricLabel": "Multi-Category Rate (App Users)",
+        "impact": "High",
+        "category": "expansion"
+      }
+    ],
+    "actionRecommendations": {
+      "first14Days": {
+        "title": "First 30 Days: Ecosystem Activation Window",
+        "priority": "Critical",
+        "actions": [
+          {
+            "action": "Force product registration + app install during first device setup",
+            "expectedImpact": "+15–18% app adoption",
+            "effort": "Medium",
+            "timeline": "3 weeks"
+          },
+          {
+            "action": "In-app guided device pairing and feature walkthrough",
+            "expectedImpact": "-6% early churn",
+            "effort": "Medium",
+            "timeline": "2 weeks"
+          },
+          {
+            "action": "Post-purchase email highlighting complementary product categories",
+            "expectedImpact": "+6% cross-category interest",
+            "effort": "Low",
+            "timeline": "1 week"
+          }
+        ]
+      },
+      "day15to60": {
+        "title": "Days 30–90: Repeat Purchase Acceleration",
+        "priority": "High",
+        "actions": [
+          {
+            "action": "Personalized cross-category recommendations based on entry product",
+            "expectedImpact": "+10–12% second-purchase conversion",
+            "effort": "Medium",
+            "timeline": "3 weeks"
+          },
+          {
+            "action": "Timed reminders aligned with observed 2.5-month repeat window",
+            "expectedImpact": "-4% churn in first 6 months",
+            "effort": "Low",
+            "timeline": "1 week"
+          },
+          {
+            "action": "Bundle offers combining core products with accessories",
+            "expectedImpact": "+₹100–150 incremental revenue per user",
+            "effort": "Low",
+            "timeline": "2 weeks"
+          }
+        ]
+      },
+      "powerUsers": {
+        "title": "Ecosystem Builders: Retain and Expand",
+        "priority": "Medium",
+        "actions": [
+          {
+            "action": "Early access to new category launches for ecosystem users",
+            "expectedImpact": "+3–5% retention among top segment",
+            "effort": "Low",
+            "timeline": "Ongoing"
+          },
+          {
+            "action": "Trade-in upgrade nudges for high-value categories",
+            "expectedImpact": "+₹170 average uplift per eligible user",
+            "effort": "Medium",
+            "timeline": "4 weeks"
+          },
+          {
+            "action": "Dedicated support and faster resolution SLAs",
+            "expectedImpact": "-2% churn in high-LTV cohort",
+            "effort": "Medium",
+            "timeline": "6 weeks"
+          }
+        ]
+      }
+    },
+    "quickWins": [
+      {
+        "title": "Inactive User Reactivation",
+        "description": "Target the 38% inactive user base with app-install and product-registration nudges",
+        "effort": "Low",
+        "timeline": "1 week"
+      },
+      {
+        "title": "Second Purchase Timing Trigger",
+        "description": "Automated reminders at 60–75 days post first purchase, aligned with repeat purchase window",
+        "effort": "Low",
+        "timeline": "3 days"
+      },
+      {
+        "title": "Accessory Attach at Checkout",
+        "description": "Surface accessories during checkout to capture ₹100+ incremental value per order",
+        "effort": "Low",
+        "timeline": "1 week"
+      }
+    ]
+  }
+  

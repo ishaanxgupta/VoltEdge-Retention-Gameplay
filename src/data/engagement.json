@@ -1,0 +1,37 @@
+{
+    "engagementRetentionCorrelation": [
+      { "engagementLevel": "None", "churnRate": 28.7, "users": 374068 },
+      { "engagementLevel": "Low", "churnRate": 18.4, "users": 28114 },
+      { "engagementLevel": "Medium", "churnRate": 13.1, "users": 15312 },
+      { "engagementLevel": "High", "churnRate": 10.6, "users": 1813 }
+    ],
+    "atRiskSegments": [
+      {
+        "segment": "One-and-Done Buyers",
+        "size": 68550,
+        "riskLevel": "Critical",
+        "keySignals": ["No app adoption", "Single category", "No recent activity"],
+        "estimatedChurnRate": 57.1
+      },
+      {
+        "segment": "Dormant High-Value",
+        "size": 14442,
+        "riskLevel": "High",
+        "keySignals": ["High LTV", "Low engagement", "App not adopted"],
+        "estimatedChurnRate": 16.6
+      },
+      {
+        "segment": "Category Loyalists",
+        "size": 70751,
+        "riskLevel": "Low",
+        "keySignals": ["Repeat purchase", "Single category"],
+        "estimatedChurnRate": 3.1
+      }
+    ],
+    "engagementThreshold": {
+      "definition": "App adopted + ≥2 product interactions per month",
+      "churnBelowThreshold": 12.4,
+      "insight": "Customers who cross the engagement threshold churn at less than half the rate of non-engaged users."
+    }
+  }
+  

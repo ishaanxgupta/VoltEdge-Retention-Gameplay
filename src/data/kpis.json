@@ -1,0 +1,20 @@
+{
+    "totalUsers": 420000,
+    "retention90Day": 71.4,
+    "powerUsers": {
+      "count": 1813,
+      "percentage": 0.43
+    },
+    "powerUserRevenue": 32.8,
+    "avgOrderValue": 27554,
+    "monthlyRecurringRevenue": 833000,
+    "customerLifetimeValue": 14387,
+    "churnRate": 28.6,
+    "trends": {
+      "totalUsers": { "direction": "up", "value": "+9.8%" },
+      "retention90Day": { "direction": "up", "value": "+4.2%" },
+      "powerUsers": { "direction": "up", "value": "+1.1%" },
+      "powerUserRevenue": { "direction": "up", "value": "+2.6%" }
+    }
+  }
+  
