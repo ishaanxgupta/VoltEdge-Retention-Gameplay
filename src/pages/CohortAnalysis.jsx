@@ -53,7 +53,7 @@ const getQuarterFromMonth = (monthStr) => {
 // Helper function to get year from cohort string
 const getYearFromCohort = (cohortStr) => {
   const parts = cohortStr.split(' ');
-  return parts.length > 1 ? parts[1] : '2025';
+  return parts.length > 1 ? parts[1] : '2024';
 };
 
 export default function CohortAnalysis() {
@@ -69,10 +69,10 @@ export default function CohortAnalysis() {
 
   const monthOptions = [
     { value: 'all', label: 'All Months' },
-    { value: 'q4', label: 'Q4 2025' },
-    { value: 'q3', label: 'Q3 2025' },
-    { value: 'q2', label: 'Q2 2025' },
-    { value: 'q1', label: 'Q1 2025' },
+    { value: 'q4', label: 'Q4 2024' },
+    { value: 'q3', label: 'Q3 2024' },
+    { value: 'q2', label: 'Q2 2024' },
+    { value: 'q1', label: 'Q1 2024' },
   ];
 
   const weeks = ['week1', 'week2', 'week3', 'week4', 'week5', 'week6', 'week7', 'week8', 'week9', 'week10', 'week11', 'week12'];
@@ -97,10 +97,10 @@ export default function CohortAnalysis() {
 
     // Map quarter selection to quarter keys
     const quarterKeyMap = {
-      'q1': 'Q1_2025',
-      'q2': 'Q2_2025',
-      'q3': 'Q3_2025',
-      'q4': 'Q4_2025',
+      'q1': 'Q1_2024',
+      'q2': 'Q2_2024',
+      'q3': 'Q3_2024',
+      'q4': 'Q4_2024',
     };
 
     const selectedQuarterKey = quarterKeyMap[selectedMonth];
@@ -267,7 +267,7 @@ export default function CohortAnalysis() {
           ? `Weekly retention rates for ${monthOptions.find(o => o.value === selectedMonth)?.label} cohorts`
           : "Weekly retention rates by signup month"}
         insight={selectedMonth === 'all' 
-          ? "Q4 2025 cohorts show improved early retention (77% at week 2 vs 71% for Q1). This improvement is attributed to the enhanced onboarding flow launched in September."
+          ? "Q4 2024 cohorts show improved early retention (77% at week 2 vs 71% for Q1). This improvement is attributed to the enhanced onboarding flow launched in September."
           : `Filtered view showing ${filteredHeatmapData.length} cohort${filteredHeatmapData.length !== 1 ? 's' : ''} from ${monthOptions.find(o => o.value === selectedMonth)?.label}. Use this view to compare retention patterns within a specific quarter.`}
         delay={100}
       >
@@ -328,7 +328,7 @@ export default function CohortAnalysis() {
           ? `Retention curve for ${monthOptions.find(o => o.value === selectedMonth)?.label}`
           : "Retention curves by quarter"}
         insight={selectedMonth === 'all'
-          ? "Q4 2025 is showing the strongest retention trajectory. If this trend continues, we project 90-day retention could reach 27% — a 4 percentage point improvement from baseline."
+          ? "Q4 2024 is showing the strongest retention trajectory. If this trend continues, we project 90-day retention could reach 27% — a 4 percentage point improvement from baseline."
           : `Focused view of ${monthOptions.find(o => o.value === selectedMonth)?.label} retention performance. Compare this quarter's trajectory against the overall average.`}
         delay={200}
       >
@@ -361,7 +361,7 @@ export default function CohortAnalysis() {
                 <>
                   <Line 
                     type="monotone" 
-                    dataKey="Q1_2025" 
+                    dataKey="Q1_2024" 
                     stroke="#94a3b8" 
                     strokeWidth={2}
                     dot={false}
@@ -369,7 +369,7 @@ export default function CohortAnalysis() {
                   />
                   <Line 
                     type="monotone" 
-                    dataKey="Q2_2025" 
+                    dataKey="Q2_2024" 
                     stroke="#3b82f6" 
                     strokeWidth={2}
                     dot={false}
@@ -377,7 +377,7 @@ export default function CohortAnalysis() {
                   />
                   <Line 
                     type="monotone" 
-                    dataKey="Q3_2025" 
+                    dataKey="Q3_2024" 
                     stroke="#f59e0b" 
                     strokeWidth={2}
                     dot={false}
@@ -385,7 +385,7 @@ export default function CohortAnalysis() {
                   />
                   <Line 
                     type="monotone" 
-                    dataKey="Q4_2025" 
+                    dataKey="Q4_2024" 
                     stroke="#22c55e" 
                     strokeWidth={3}
                     dot={false}
@@ -395,7 +395,7 @@ export default function CohortAnalysis() {
               ) : (
                 <Line 
                   type="monotone" 
-                  dataKey={Object.keys(filteredCohortComparison[0] || {}).find(key => key !== 'week') || 'Q1_2025'}
+                  dataKey={Object.keys(filteredCohortComparison[0] || {}).find(key => key !== 'week') || 'Q1_2024'}
                   stroke={selectedMonth === 'q1' ? '#94a3b8' : 
                          selectedMonth === 'q2' ? '#3b82f6' : 
                          selectedMonth === 'q3' ? '#f59e0b' : '#22c55e'}
