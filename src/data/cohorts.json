@@ -1,33 +1,106 @@
 {
   "heatmapData": [
-    { "cohort": "Jan 2025", "week1": 100, "week2": 71, "week3": 56, "week4": 45, "week5": 38, "week6": 32, "week7": 28, "week8": 25, "week9": 24, "week10": 23, "week11": 22, "week12": 22 },
-    { "cohort": "Feb 2025", "week1": 100, "week2": 69, "week3": 54, "week4": 43, "week5": 36, "week6": 30, "week7": 27, "week8": 24, "week9": 23, "week10": 22, "week11": 21, "week12": 21 },
-    { "cohort": "Mar 2025", "week1": 100, "week2": 73, "week3": 59, "week4": 48, "week5": 41, "week6": 35, "week7": 31, "week8": 28, "week9": 26, "week10": 25, "week11": 24, "week12": 24 },
-    { "cohort": "Apr 2025", "week1": 100, "week2": 75, "week3": 62, "week4": 51, "week5": 44, "week6": 38, "week7": 34, "week8": 30, "week9": 28, "week10": 27, "week11": 26, "week12": 25 },
-    { "cohort": "May 2025", "week1": 100, "week2": 74, "week3": 60, "week4": 49, "week5": 42, "week6": 36, "week7": 32, "week8": 29, "week9": 27, "week10": 26, "week11": 25, "week12": null },
-    { "cohort": "Jun 2025", "week1": 100, "week2": 72, "week3": 57, "week4": 46, "week5": 39, "week6": 33, "week7": 29, "week8": 26, "week9": 24, "week10": 23, "week11": null, "week12": null },
-    { "cohort": "Jul 2025", "week1": 100, "week2": 70, "week3": 55, "week4": 44, "week5": 37, "week6": 31, "week7": 27, "week8": 24, "week9": 23, "week10": null, "week11": null, "week12": null },
-    { "cohort": "Aug 2025", "week1": 100, "week2": 68, "week3": 52, "week4": 41, "week5": 34, "week6": 28, "week7": 25, "week8": 22, "week9": null, "week10": null, "week11": null, "week12": null },
-    { "cohort": "Sep 2025", "week1": 100, "week2": 76, "week3": 63, "week4": 52, "week5": 45, "week6": 39, "week7": 35, "week8": null, "week9": null, "week10": null, "week11": null, "week12": null },
-    { "cohort": "Oct 2025", "week1": 100, "week2": 78, "week3": 65, "week4": 54, "week5": 47, "week6": 41, "week7": null, "week8": null, "week9": null, "week10": null, "week11": null, "week12": null },
-    { "cohort": "Nov 2025", "week1": 100, "week2": 77, "week3": 64, "week4": 53, "week5": 46, "week6": null, "week7": null, "week8": null, "week9": null, "week10": null, "week11": null, "week12": null },
-    { "cohort": "Dec 2025", "week1": 100, "week2": 75, "week3": 61, "week4": 50, "week5": null, "week6": null, "week7": null, "week8": null, "week9": null, "week10": null, "week11": null, "week12": null }
+    { "cohort": "Jan 2025", "week1": 100, "week2": 89, "week3": 74, "week4": 65, "week5": 56, "week6": 52, "week7": 43, "week8": 41, "week9": 34, "week10": 30, "week11": 25, "week12": 24 },
+    { "cohort": "Feb 2025", "week1": 100, "week2": 89, "week3": 74, "week4": 68, "week5": 58, "week6": 53, "week7": 45, "week8": 40, "week9": 33, "week10": 33, "week11": 25, "week12": 26 },
+    { "cohort": "Mar 2025", "week1": 100, "week2": 88, "week3": 75, "week4": 69, "week5": 59, "week6": 53, "week7": 42, "week8": 38, "week9": 36, "week10": 30, "week11": 26, "week12": 22 },
+    { "cohort": "Apr 2025", "week1": 100, "week2": 87, "week3": 76, "week4": 68, "week5": 56, "week6": 51, "week7": 44, "week8": 39, "week9": 33, "week10": 30, "week11": 25, "week12": 21 },
+    { "cohort": "May 2025", "week1": 100, "week2": 87, "week3": 75, "week4": 66, "week5": 56, "week6": 50, "week7": 44, "week8": 41, "week9": 33, "week10": 32, "week11": 22, "week12": 22 },
+    { "cohort": "Jun 2025", "week1": 100, "week2": 86, "week3": 75, "week4": 66, "week5": 59, "week6": 49, "week7": 43, "week8": 38, "week9": 33, "week10": 28, "week11": 23, "week12": 23 },
+    { "cohort": "Jul 2025", "week1": 100, "week2": 86, "week3": 76, "week4": 67, "week5": 57, "week6": 51, "week7": 43, "week8": 37, "week9": 36, "week10": 30, "week11": 26, "week12": 22 },
+    { "cohort": "Aug 2025", "week1": 100, "week2": 88, "week3": 78, "week4": 70, "week5": 60, "week6": 51, "week7": 44, "week8": 39, "week9": 34, "week10": 33, "week11": 24, "week12": 23 },
+    { "cohort": "Sep 2025", "week1": 100, "week2": 88, "week3": 78, "week4": 66, "week5": 59, "week6": 51, "week7": 47, "week8": 40, "week9": 37, "week10": 32, "week11": 25, "week12": 23 },
+    { "cohort": "Oct 2025", "week1": 100, "week2": 86, "week3": 76, "week4": 68, "week5": 56, "week6": 52, "week7": 45, "week8": 40, "week9": 36, "week10": 28, "week11": 19, "week12": 11 },
+    { "cohort": "Nov 2025", "week1": 100, "week2": 86, "week3": 77, "week4": 70, "week5": 59, "week6": 53, "week7": 34, "week8": 21, "week9": 7, "week10": null, "week11": null, "week12": null }
   ],
   "cohortComparison": [
-    { "week": 1, "Q1_2025": 100, "Q2_2025": 100, "Q3_2025": 100, "Q4_2025": 100 },
-    { "week": 2, "Q1_2025": 71, "Q2_2025": 74, "Q3_2025": 71, "Q4_2025": 77 },
-    { "week": 3, "Q1_2025": 56, "Q2_2025": 60, "Q3_2025": 57, "Q4_2025": 63 },
-    { "week": 4, "Q1_2025": 45, "Q2_2025": 49, "Q3_2025": 46, "Q4_2025": 52 },
-    { "week": 5, "Q1_2025": 38, "Q2_2025": 42, "Q3_2025": 39, "Q4_2025": 47 },
-    { "week": 6, "Q1_2025": 32, "Q2_2025": 36, "Q3_2025": 33, "Q4_2025": 41 },
-    { "week": 7, "Q1_2025": 28, "Q2_2025": 32, "Q3_2025": 29, "Q4_2025": 35 },
-    { "week": 8, "Q1_2025": 25, "Q2_2025": 29, "Q3_2025": 25, "Q4_2025": 30 },
-    { "week": 9, "Q1_2025": 24, "Q2_2025": 27, "Q3_2025": 24, "Q4_2025": 28 },
-    { "week": 10, "Q1_2025": 23, "Q2_2025": 26, "Q3_2025": 23, "Q4_2025": 27 },
-    { "week": 11, "Q1_2025": 22, "Q2_2025": 25, "Q3_2025": 22, "Q4_2025": 26 },
-    { "week": 12, "Q1_2025": 22, "Q2_2025": 24, "Q3_2025": 21, "Q4_2025": 25 }
+    {
+      "week": 1,
+      "Q1_2025": 100,
+      "Q2_2025": 100,
+      "Q3_2025": 100,
+      "Q4_2025": 100
+    },
+    {
+      "week": 2,
+      "Q1_2025": 89,
+      "Q2_2025": 87,
+      "Q3_2025": 87,
+      "Q4_2025": 86
+    },
+    {
+      "week": 3,
+      "Q1_2025": 74,
+      "Q2_2025": 75,
+      "Q3_2025": 77,
+      "Q4_2025": 76
+    },
+    {
+      "week": 4,
+      "Q1_2025": 67,
+      "Q2_2025": 67,
+      "Q3_2025": 68,
+      "Q4_2025": 69
+    },
+    {
+      "week": 5,
+      "Q1_2025": 58,
+      "Q2_2025": 57,
+      "Q3_2025": 59,
+      "Q4_2025": 58
+    },
+    {
+      "week": 6,
+      "Q1_2025": 53,
+      "Q2_2025": 50,
+      "Q3_2025": 51,
+      "Q4_2025": 52
+    },
+    {
+      "week": 7,
+      "Q1_2025": 43,
+      "Q2_2025": 44,
+      "Q3_2025": 45,
+      "Q4_2025": 40
+    },
+    {
+      "week": 8,
+      "Q1_2025": 40,
+      "Q2_2025": 39,
+      "Q3_2025": 39,
+      "Q4_2025": 30
+    },
+    {
+      "week": 9,
+      "Q1_2025": 34,
+      "Q2_2025": 33,
+      "Q3_2025": 36,
+      "Q4_2025": 22
+    },
+    {
+      "week": 10,
+      "Q1_2025": 31,
+      "Q2_2025": 30,
+      "Q3_2025": 32,
+      "Q4_2025": 28
+    },
+    {
+      "week": 11,
+      "Q1_2025": 25,
+      "Q2_2025": 23,
+      "Q3_2025": 25,
+      "Q4_2025": 19
+    },
+    {
+      "week": 12,
+      "Q1_2025": 24,
+      "Q2_2025": 22,
+      "Q3_2025": 23,
+      "Q4_2025": 11
+    }
   ]
 }
+
+
 
 
 
